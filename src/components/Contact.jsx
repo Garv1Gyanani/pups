@@ -87,7 +87,7 @@ export default function Contact() {
                   <div className="co-val">facebook.com/pups4pets</div>
                 </div>
               </a>
-              <a href="https://maps.google.com/?q=A-967/23+Indira+Nagar+Lucknow" target="_blank" rel="noopener noreferrer" className="contact-option">
+              <a href="https://maps.app.goo.gl/wuUU4aQRUr85FJVDA" target="_blank" rel="noopener noreferrer" className="contact-option">
                 <span className="co-icon"><MapPin size={20} /></span>
                 <div>
                   <div className="co-label">Find Us On Maps</div>

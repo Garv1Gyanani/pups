@@ -79,10 +79,10 @@ export default function Reviews() {
         <div className="reviews-more">
           <p>Read all 1,200+ reviews on Google Maps</p>
           <div style={{ display: 'flex', gap: '14px', justifyContent: 'center', flexWrap: 'wrap' }}>
-            <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" className="btn btn-red">
+            <a href="https://maps.app.goo.gl/wuUU4aQRUr85FJVDA" target="_blank" rel="noopener noreferrer" className="btn btn-red">
               Read Indira Nagar Reviews
             </a>
-            <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" className="btn btn-outline-brown">
+            <a href="https://maps.app.goo.gl/968JYzU8VncYFmVR9" target="_blank" rel="noopener noreferrer" className="btn btn-outline-brown">
               Read Gomti Nagar Reviews
             </a>
           </div>
