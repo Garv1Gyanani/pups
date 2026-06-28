@@ -1425,6 +1425,10 @@ button {
   padding: 24px;
   border-radius: var(--radius-md);
   border: 1px solid rgba(255, 255, 255, 0.08);
+  position: relative;
+  overflow: hidden;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
 }
 
 .gh-package {
@@ -1436,6 +1440,10 @@ button {
   align-items: center;
   justify-content: space-between;
   transition: background 0.2s;
+  /* Fix for mobile browser scrolling artifacts */
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  will-change: transform;
 }
 
 .gh-package:hover {
